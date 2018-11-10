@@ -16,19 +16,8 @@ if($permCheck == false OR !isset($_GET['voi'])){
   $vehicleInfo = getVehicleInfo($voiInfo['vehicle_id']);
 ?>
 
-<head>
+
 <title>PDRP Network - Edit BOLO (Vehicle of Interest): <?php echo $vehicleInfo['vehicle']; ?> - <?php echo $vehicleInfo['vrm']; ?></title>
-<style type="text/css">
-body {
-            background-image: url(../img/background-2.png) !important;
-            background-repeat: no-repeat;
-            background-position: left center;
-            background-size: auto; 
-            background-color: #37474f;
-            background-attachment: fixed;
-        }
-</style>
-</head>
 
 <div class="container-fluid" style="margin-top: 25px;">
 	<div class="row">

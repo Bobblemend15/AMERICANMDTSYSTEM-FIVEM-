@@ -17,7 +17,7 @@ if($permCheck == false OR !isset($_GET['uid'])){
 $messages = getMessagesBetween($UserArray['userid'],$_GET['uid']);
 ?>
 
-<title>WMRPC - Messages</title>
+<title>PDRP Network - Messages</title>
 
 <div class="container" style="margin-top: 25px;">
 	<div class="row">

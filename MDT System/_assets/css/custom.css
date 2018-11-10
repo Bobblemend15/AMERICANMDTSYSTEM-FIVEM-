@@ -9,11 +9,10 @@ body, button, input, select, textarea {
 }
 
 body {
-    /* background-image: url(../img/background-2.png) !important;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain; */
-    background-color: #37474f;
+    background-image: url(../img/background-2.png) !important;
+	background-size: cover;
+    background-repeat: center no-repeat;
+	background-size: auto;
     background-attachment: fixed;
 }
 

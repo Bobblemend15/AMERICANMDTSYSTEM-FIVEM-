@@ -20,7 +20,7 @@ $collar_err = $password_err = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
     if(empty(trim($_POST["collar"]))){
-        $collar_err = 'Please enter collar.';
+        $collar_err = 'Please enter username.';
     } else{
         $collar = trim($_POST["collar"]);
     }
@@ -53,16 +53,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	<link rel="stylesheet" type="text/css" href="_assets/css/custom.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        body {
-            background-image: url(../img/background-2.png) !important;
-            background-repeat: no-repeat;
-            background-position: left center;
-            background-size: auto;
-            background-color: #37474f;
-            background-attachment: fixed;
-        }
-    </style>
 </head>
 <body>
 	<div class="login-content-holder">

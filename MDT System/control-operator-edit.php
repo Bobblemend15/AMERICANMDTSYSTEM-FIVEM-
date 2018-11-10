@@ -15,7 +15,7 @@ if($permCheck == false){
 }
 ?>
 
-<title>WMRPC - Edit Call</title>
+<title>PDRP Network - Edit Call</title>
 
 <div class="container" style="margin-top: 25px;">
 	<div class="row">

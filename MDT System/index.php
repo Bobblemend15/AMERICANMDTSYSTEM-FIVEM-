@@ -10,20 +10,9 @@ if($permCheck == false){
     echo '<meta http-equiv="refresh" content="0; url=login.php" />';
 }
 ?>
-<head>
+
 <title>PDRP Network - Homepage</title>
-<style type="text/css">
-body {
-            background-image: url(../img/background-2.png) !important;
-            background-repeat: no-repeat;
-            background-position: left center;
-            background-size: auto; 
-            background-color: #37474f;
-            background-attachment: fixed;
-			color: white;
-        }
-</style>
-</head>
+
 <div class="container" style="margin-top: 25px;">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-6">

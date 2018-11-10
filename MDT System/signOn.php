@@ -17,19 +17,8 @@ if($unitInfo == true){
 }
 ?>
 
-<head>
+
 <title>PDRP Network - Go On DUTY</title>
-<style type="text/css">
-body {
-            background-image: url(../img/background-2.png) !important;
-            background-repeat: no-repeat;
-            background-position: left center;
-            background-size: auto; 
-            background-color: #37474f;
-            background-attachment: fixed;
-        }
-</style>
-</head>
 
 <div class="container" style="margin-top: 25px;">
     <div class="row">
