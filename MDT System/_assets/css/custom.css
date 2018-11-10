@@ -12,7 +12,6 @@ body {
     background-image: url(../img/background-2.png) !important;
 	background-size: cover;
     background-repeat: center no-repeat;
-	background-size: auto;
     background-attachment: fixed;
 }
 
