@@ -216,17 +216,8 @@ CREATE TABLE `mdt_sessions` (
   `session_id` mediumtext NOT NULL,
   `user_id` mediumint(9) NOT NULL,
   `ip` varchar(255) NOT NULL,
-  `timestamp` mediumint(9) NOT NULL
+  `timestamp` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `mdt_sessions`
---
-
-INSERT INTO `mdt_sessions` (`id`, `session_id`, `user_id`, `ip`, `timestamp`) VALUES
-(2, 'f5aos3n8mpf9830rosq59ctp8k', 1, '::1', 8388607),
-(3, 'tb3l8sk7jeskm08nagbgggpms9', 1, '::1', 8388607),
-(14, 'iovf81sg2lf0i10g118r91uld7', 1, '24.165.178.147', 8388607);
 
 -- --------------------------------------------------------
 
@@ -533,13 +524,13 @@ ALTER TABLE `vois`
 -- AUTO_INCREMENT for table `calls`
 --
 ALTER TABLE `calls`
-  MODIFY `callid` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `callid` mediumint(9) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `civilians`
 --
 ALTER TABLE `civilians`
-  MODIFY `civid` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `civid` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `civilian_notes`
@@ -563,25 +554,25 @@ ALTER TABLE `markers`
 -- AUTO_INCREMENT for table `mdt_sessions`
 --
 ALTER TABLE `mdt_sessions`
-  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `mdt_users`
 --
 ALTER TABLE `mdt_users`
-  MODIFY `userid` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `userid` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `messageid` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `messageid` mediumint(9) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `pois`
 --
 ALTER TABLE `pois`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `remarks`
@@ -593,13 +584,13 @@ ALTER TABLE `remarks`
 -- AUTO_INCREMENT for table `reports`
 --
 ALTER TABLE `reports`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `units`
 --
 ALTER TABLE `units`
-  MODIFY `unitid` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `unitid` mediumint(9) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `usergroups`
